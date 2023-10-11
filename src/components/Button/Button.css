@@ -1,0 +1,24 @@
+.button {
+  background: var(--primary-color);
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 1.2rem 0.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: 0 5px 15px #00000026;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+}
+
+.button:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.primary-button {
+  width: 18rem;
+}
+
+.secundary-button {
+  width: 10rem;
+}

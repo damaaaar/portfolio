@@ -1,0 +1,28 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  left: 0;
+  background: #ffffff;
+  padding: 0.5rem;
+  box-shadow: #64646f33 0 7px 29px;
+}
+
+.aside-social {
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 0.2rem;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.aside-social:hover {
+  background: var(--secundary-color);
+}
+
+@media (width < 950px) {
+  .aside {
+    display: none;
+  }
+}

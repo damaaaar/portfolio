@@ -1,0 +1,8 @@
+.label {
+  background: #d6dad6;
+  color: #676767;
+  padding: 0.4rem 0.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 5px;
+}

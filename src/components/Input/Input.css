@@ -1,0 +1,32 @@
+.form-label {
+  font-weight: 700;
+}
+
+.form-input {
+  background: #f0f0f0;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 5px;
+  resize: none;
+  margin-top: 0.8rem;
+}
+
+.form-input::placeholder {
+  font-weight: 700;
+}
+
+.form-input:focus {
+  outline-color: var(--primary-color);
+}
+
+@media (width < 500px) {
+  .form-input {
+    padding: 1.2rem;
+  }
+}
+
+@media (width < 400px) {
+  .form-input {
+    padding: 1rem;
+  }
+}

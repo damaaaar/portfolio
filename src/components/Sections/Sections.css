@@ -1,0 +1,24 @@
+.hidden-sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.liClass {
+  border-top: 1px solid #c9c9c9;
+}
+
+.hidden-section {
+  padding: 0.8rem 4vw;
+  text-transform: uppercase;
+  text-align: end;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+}
+
+.hidden-section:hover {
+  color: var(--primary-color);
+}
+
+.hidden-section:active {
+  color: var(--primary-color);
+}
