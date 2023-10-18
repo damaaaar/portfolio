@@ -49,23 +49,11 @@ function About () {
         <article className='about-content-explicit-technologies'>
           <SubTitle value='Habilidades técnicas' />
           <div className='about-labels'>
-            <Label value='html5' />
-            <Label value='css3' />
-            <Label value='responsive design' />
-            <Label value='javascript' />
-            <Label value='react' />
-            <Label value='c#' />
-            <Label value='git y github' />
-            <Label value='vs code' />
+            <Label skill='hard' />
           </div>
           <SubTitle value='Habilidades blandas' />
           <div className='about-labels'>
-            <Label value='Comunicación efectiva' />
-            <Label value='Trabajo en equipo' />
-            <Label value='Adaptabilidad' />
-            <Label value='Autoaprendizaje' />
-            <Label value='Proactividad' />
-            <Label value='Empatía' />
+            <Label skill='soft' />
           </div>
         </article>
       </div>
