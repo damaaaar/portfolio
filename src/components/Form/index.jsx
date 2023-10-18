@@ -9,7 +9,7 @@ function Form () {
     <form className='form' onSubmit={handleSubmit} ref={reference}>
       <Input
         label='Nombre'
-        placeholder='Ingrese su nombre'
+        placeholder='Bryan Cranston...'
         data={name}
         setData={setName}
         name='contact_nombre'
@@ -17,7 +17,7 @@ function Form () {
       />
       <Input
         label='Email'
-        placeholder='Ingrese su email'
+        placeholder='cranston.bryan@algo.com...'
         data={email}
         setData={setEmail}
         name='contact_email'
@@ -25,7 +25,7 @@ function Form () {
       />
       <Input
         label='Mensaje'
-        placeholder='Ingrese su mensaje'
+        placeholder='Quiero cotizar un sitio web...'
         data={message}
         setData={setMessage}
         name='contact_mensaje'
