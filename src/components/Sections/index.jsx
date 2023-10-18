@@ -1,30 +1,20 @@
 import './Sections.css'
+import { sections, names } from '../../constantes/sections'
 
 function Sections (props) {
   const { ulClass, aClass, liClass, goSection } = props
 
   return (
     <ul className={ulClass}>
-      <li className={liClass}>
-        <a href='#home' className={aClass} onClick={goSection}>
-          Inicio
-        </a>
-      </li>
-      <li className={liClass}>
-        <a href='#about' className={aClass} onClick={goSection}>
-          Sobre mí
-        </a>
-      </li>
-      <li className={liClass}>
-        <a href='#projects' className={aClass} onClick={goSection}>
-          Proyectos
-        </a>
-      </li>
-      <li className={liClass}>
-        <a href='#contact' className={aClass} onClick={goSection}>
-          Contacto
-        </a>
-      </li>
+      {sections.map((section, index) => {
+        return (
+          <li key={index} className={liClass}>
+            <a href={section} className={aClass} onClick={goSection}>
+              {names[index]}
+            </a>
+          </li>
+        )
+      })}
     </ul>
   )
 }
