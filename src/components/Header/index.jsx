@@ -1,20 +1,9 @@
 import './Header.css'
-import menu from '../../assets/icons/menu.svg'
-import x from '../../assets/icons/x.svg'
 import Sections from '../Sections'
-import { useState } from 'react'
+import { useMenuControl } from '../../hooks/useMenuControl'
 
 function Header () {
-  const [icon, setIcon] = useState(menu)
-  const [visibility, setVisibility] = useState('hidden-nav-hidden')
-
-  const handleClick = () => {
-    icon === menu ? setIcon(x) : setIcon(menu)
-    visibility === 'hidden-nav-hidden'
-      ? setVisibility('hidden-nav-show')
-      : setVisibility('hidden-nav-hidden')
-    console.log('hla')
-  }
+  const { handleClick, icon, visibility } = useMenuControl()
 
   return (
     <header className='header'>
