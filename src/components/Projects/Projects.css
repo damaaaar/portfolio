@@ -13,3 +13,9 @@
   justify-content: center;
   gap: 2.3rem;
 }
+
+@media (width <= 900px) {
+  .projects {
+    padding: 10rem 4vw;
+  }
+}
