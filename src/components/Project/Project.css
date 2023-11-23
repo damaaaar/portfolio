@@ -6,7 +6,7 @@
 }
 
 .project-figure {
-  width: 55%;
+  width: 50%;
   overflow: hidden;
   border-radius: 10px;
 }
@@ -20,7 +20,7 @@
 }
 
 .project-content {
-  width: calc(45% - 2rem);
+  width: calc(50% - 2rem);
   display: flex;
   flex-direction: column;
   gap: 2rem;
