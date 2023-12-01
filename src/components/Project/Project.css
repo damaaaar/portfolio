@@ -1,3 +1,8 @@
+.projects-summary {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
 .projects-project {
   display: flex;
   justify-content: center;
