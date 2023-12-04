@@ -3,6 +3,10 @@
   font-weight: 700;
 }
 
+.projects-summary:hover {
+  cursor: pointer;
+}
+
 .projects-project {
   display: flex;
   justify-content: center;
