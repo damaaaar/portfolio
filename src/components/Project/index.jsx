@@ -8,7 +8,7 @@ function Project ({ PROJECTS_INFO }) {
       {
         PROJECTS_INFO.map(project => {
           return (
-            <details key={project.id} className='projects-details'>
+            <details key={project.id} className='projects-details' name='project'>
               <summary className='projects-summary'>{project.title}</summary>
               <article className='projects-project'>
                 <figure className='project-figure'>
