@@ -1,8 +1,8 @@
 import './Label.css'
 import { hardSkills, softSkills } from '../../constantes/skills'
 
-function Label ({ skill }) {
-  if (skill === 'hard') {
+function Label ({ children }) {
+  if (children === 'hard') {
     return (
       hardSkills.map((skill, index) => {
         return (

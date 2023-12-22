@@ -9,12 +9,18 @@ function About () {
   return (
     <section className='about' id='about'>
       <div className='about-content'>
-        <Title value='Sobre mí' />
-        <Description value='A continuación, encontrará más información de mi persona, sobre lo que hago, lo que quiero hacer y lo que sé hacer, claro, tratándose del área de programación.' />
+        <Title>
+          Sobre mí
+        </Title>
+        <Description>
+          A continuación, encontrará más información de mi persona, sobre lo que hago, lo que quiero hacer y lo que sé hacer, claro, tratándose del área de programación.
+        </Description>
       </div>
       <div className='about-content-explicit'>
         <article className='about-content-explicit-knowMe'>
-          <SubTitle value='Conóceme' />
+          <SubTitle>
+            Conóceme
+          </SubTitle>
           <p className='about-info'>
             Soy un programador{' '}
             <span className='about-info-span'>web frontend</span>, futuro
@@ -47,13 +53,21 @@ function About () {
           />
         </article>
         <article className='about-content-explicit-technologies'>
-          <SubTitle value='Habilidades técnicas' />
+          <SubTitle>
+            Habilidades técnicas
+          </SubTitle>
           <div className='about-labels'>
-            <Label skill='hard' />
+            <Label>
+              hard
+            </Label>
           </div>
-          <SubTitle value='Habilidades blandas' />
+          <SubTitle>
+            Habilidades blandas
+          </SubTitle>
           <div className='about-labels'>
-            <Label skill='soft' />
+            <Label>
+              soft
+            </Label>
           </div>
         </article>
       </div>

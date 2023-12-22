@@ -1,7 +1,7 @@
 import './Description.css'
 
-function Description ({ value }) {
-  return <p className='content-description'>{value}</p>
+function Description ({ children }) {
+  return <p className='content-description'>{children}</p>
 }
 
 export default Description
